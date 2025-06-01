@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Baby } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -14,9 +13,14 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 pt-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-6 flex justify-center">
-            <div className="bg-white/50 backdrop-blur-sm p-4 rounded-full">
-              <Baby className="w-12 h-12 text-sage-600" />
+          <div className="mb-8 flex justify-center">
+            <div className="bg-white/70 backdrop-blur-sm p-4 rounded-full shadow-lg">
+              <img 
+                src="/lovable-uploads/a596d65b-64f9-410e-8a8b-6a6cdc63f3f5.png" 
+                alt="Tiny Cuddles" 
+                className="h-16 w-auto filter brightness-0 saturate-0"
+                style={{ filter: 'brightness(0) saturate(100%) invert(29%) sepia(15%) saturate(1024%) hue-rotate(76deg) brightness(93%) contrast(89%)' }}
+              />
             </div>
           </div>
           
