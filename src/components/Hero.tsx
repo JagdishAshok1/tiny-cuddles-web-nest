@@ -18,8 +18,13 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/a596d65b-64f9-410e-8a8b-6a6cdc63f3f5.png" 
                 alt="Tiny Cuddles" 
-                className="h-16 w-auto filter brightness-0 saturate-0"
+                className="h-16 w-auto"
                 style={{ filter: 'brightness(0) saturate(100%) invert(29%) sepia(15%) saturate(1024%) hue-rotate(76deg) brightness(93%) contrast(89%)' }}
+                onLoad={() => console.log('Logo loaded successfully')}
+                onError={(e) => {
+                  console.error('Logo failed to load:', e);
+                  e.currentTarget.style.display = 'none';
+                }}
               />
             </div>
           </div>
