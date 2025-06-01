@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,46 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Tiny Cuddles brand colors
+				sage: {
+					25: '#fafbfa',
+					50: '#f2f5f2',
+					100: '#e6ede6',
+					200: '#c9d6c9',
+					300: '#a8bfa8',
+					400: '#87a887',
+					500: '#6b916b',
+					600: '#5a7a5a',
+					700: '#4a644a',
+					800: '#3d523d',
+					900: '#334433'
+				},
+				cream: {
+					25: '#fefefe',
+					50: '#fdfcfc',
+					100: '#faf8f6',
+					200: '#f5f0ec',
+					300: '#ede4dc',
+					400: '#e2d1c2',
+					500: '#d4bba4',
+					600: '#c4a084',
+					700: '#b08766',
+					800: '#8f6f4f',
+					900: '#6b5239'
+				},
+				blush: {
+					25: '#fefefe',
+					50: '#fdf8f8',
+					100: '#fbeaea',
+					200: '#f5d1d1',
+					300: '#edb0b0',
+					400: '#e28a8a',
+					500: '#d46969',
+					600: '#c14e4e',
+					700: '#a33d3d',
+					800: '#853535',
+					900: '#6b2f2f'
 				}
 			},
 			borderRadius: {
