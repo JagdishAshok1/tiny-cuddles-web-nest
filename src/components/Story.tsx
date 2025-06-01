@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Hand-Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 const Story = () => {
   return (
@@ -8,7 +7,7 @@ const Story = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <Hand-Heart className="w-12 h-12 text-sage-600 mx-auto mb-6" />
+            <Heart className="w-12 h-12 text-sage-600 mx-auto mb-6" />
             <h2 className="text-4xl md:text-5xl font-light text-sage-800 mb-6">Our Story</h2>
             <div className="w-24 h-1 bg-blush-300 mx-auto rounded-full"></div>
           </div>

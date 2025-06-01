@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Leaf, Hand-Heart, Earth, Baby } from 'lucide-react';
+import { Leaf, Heart, Earth, Baby } from 'lucide-react';
 
 const Features = () => {
   const features = [
@@ -10,7 +10,7 @@ const Features = () => {
       description: "GOTS-certified organic cotton, free from harmful chemicals and gentle on delicate skin"
     },
     {
-      icon: Hand-Heart,
+      icon: Heart,
       title: "Designed by a Mom",
       description: "Every piece created with a mother's intuition and understanding of what babies truly need"
     },
