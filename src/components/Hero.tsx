@@ -13,22 +13,6 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 pt-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8 flex justify-center">
-            <div className="bg-white/70 backdrop-blur-sm p-4 rounded-full shadow-lg">
-              <img 
-                src="/lovable-uploads/a596d65b-64f9-410e-8a8b-6a6cdc63f3f5.png" 
-                alt="Tiny Cuddles" 
-                className="h-16 w-auto"
-                style={{ filter: 'brightness(0) saturate(100%) invert(29%) sepia(15%) saturate(1024%) hue-rotate(76deg) brightness(93%) contrast(89%)' }}
-                onLoad={() => console.log('Logo loaded successfully')}
-                onError={(e) => {
-                  console.error('Logo failed to load:', e);
-                  e.currentTarget.style.display = 'none';
-                }}
-              />
-            </div>
-          </div>
-          
           <h1 className="text-5xl md:text-7xl font-light text-sage-800 mb-6 leading-tight">
             Made by a Mother,
             <br />
