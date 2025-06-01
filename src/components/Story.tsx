@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Heart } from 'lucide-react';
 
@@ -19,7 +20,7 @@ const Story = () => {
             
             <div className="bg-cream-50 p-8 rounded-3xl mb-8">
               <p className="mb-6">
-                When my twins, Lily and Sam, were born, I found myself searching endlessly for clothing that matched my values as a mother. I wanted pieces that were gentle on their delicate skin, kind to our planet, and beautiful enough to treasure in photos and memories.
+                When my son was born, I found myself searching endlessly for clothing that matched my values as a mother. I wanted pieces that were gentle on his delicate skin, kind to our planet, and beautiful enough to treasure in photos and memories.
               </p>
               
               <p className="mb-6">
